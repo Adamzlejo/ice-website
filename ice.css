@@ -118,7 +118,7 @@ div.row5 {
 }
 div.row5 img {
   width: 24.5%;
-  height: 50vh;
+  height: 40vh;
 }
 /*row6*/
 div.row6 {
@@ -278,9 +278,16 @@ div.row13 .cols ul li {
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
+  #yes {
+    order: 3;
+  }
+  div.row4 iframe {
+    height: 50vh;
+  }
   div.row5 img {
     width: 48%;
     height: 50vh;
+    margin: 2% 1%;
   }
   /*row6*/
   div.row6 {
@@ -399,6 +406,13 @@ div.row13 .cols ul li {
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
+  div.page {
+    width: 98%;
+    margin: 1%;
+  }
+  div.row4 iframe {
+    height: 50vh;
+  }
   div.row5 {
     width: 100%;
     display: flex;
@@ -407,8 +421,8 @@ div.row13 .cols ul li {
     flex-wrap: wrap;
   }
   div.row5 img {
-    width: 90%;
-    margin: 2% 0;
+    width: 48%;
+    margin: 2% 1%;
   }
   /*row6*/
   div.row6 {
@@ -440,11 +454,12 @@ div.row13 .cols ul li {
     flex-wrap: wrap;
   }
   div.row8 .col {
-    width: 90%;
+    width: 48%;
     text-align: center;
+    margin: 2% 0%;
   }
   div.row8 img {
-    width: 100%;
+    width: 95%;
     height: 50vh;
   }
   /*row9*/
@@ -455,9 +470,10 @@ div.row13 .cols ul li {
     flex-wrap: wrap;
   }
   div.row9 .col {
-    width: 90%;
+    width: 50%;
     text-align: center;
-    padding: 2% 0;
+    padding: 1% 0;
+    margin: 1% 0;
   }
   div.row9 img {
     width: 100%;
@@ -592,13 +608,13 @@ div.row13 .cols ul li {
   }
   button.toggleButton {
     visibility: visible;
-    width: 10%;
-    padding: 0% 2%;
+    width: 8%;
+    padding: 0% 1.5%;
     text-align: center;
     margin: 10% 0;
   }
   div.hamburger {
-    width: 35px;
+    width: 25px;
     height: 3px;
     background-color: black;
     margin: 6px 0;
@@ -640,9 +656,12 @@ div.row13 .cols ul li {
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
+  div.row4 iframe {
+    height: 40vh;
+  }
   div.row5 img {
-    width: 90%;
-    margin-left: 2% 5%;
+    width: 98%;
+    margin: 2%;
   }
   /*row6*/
   div.row6 {
